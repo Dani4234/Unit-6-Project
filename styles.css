@@ -1,0 +1,21 @@
+body {
+    font-family: 'Srisakdi', cursive;
+    background-image:url("https://www.ksdk.com/img/resize/content.ksdk.com/photo/2017/12/07/money_falling_1512685944468_11899657_ver1.0.png");
+}
+
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border-style:inset;
+    border-radius: 20px;
+    background-color:#BAE3FE;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.container:hover {
+    background-color:#BFFAED;
+    border-color:black;
+}
